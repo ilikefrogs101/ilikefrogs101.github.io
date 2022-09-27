@@ -1,0 +1,11 @@
+form {
+margin: 0 auto;
+width:250px;
+text-align: center;
+}
+
+<style>
+.aligncenter {
+    text-align: center;
+}
+</style>

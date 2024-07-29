@@ -7,6 +7,10 @@ main {
     background-color: #32302f;
 }
 
+body, html {
+    background-color: #32302f;
+}
+
 ul {
     list-style: none;
     padding: 0;

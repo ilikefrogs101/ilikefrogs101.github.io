@@ -50,8 +50,8 @@ ul {
 .expanded-project,
 .expanded-experiment,
 .expanded-friend {
-    background-color: #25242400;
-    border: 1px solid #ebdbb200;
+    background-color: #25242425;
+    border: 1px solid #ebdbb225;
     padding: 10px;
     border-radius: 5px;
 }
@@ -59,8 +59,8 @@ ul {
 .project-button,
 .experiment-button,
 .friend-button {
-    background-color: #25242425;
-    border: 1px solid #25242425;
+    background-color: #25242450;
+    border: 1px solid #25242450;
     padding: 10px;
     border-radius: 5px;
 }

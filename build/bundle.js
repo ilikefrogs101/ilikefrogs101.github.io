@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35731/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function () {
     'use strict';
 
@@ -2652,6 +2652,7 @@ var app = (function () {
     			t6 = text("Friends");
     			attr_dev(a0, "href", "/");
     			attr_dev(a0, "class", isActive('/') ? 'selected-page-button' : 'page-button');
+    			attr_dev(a0, "replace", "");
     			add_location(a0, file$6, 9, 2, 163);
     			attr_dev(a1, "href", "projects");
 
@@ -2659,21 +2660,24 @@ var app = (function () {
     			? 'selected-page-button'
     			: 'page-button');
 
-    			add_location(a1, file$6, 10, 2, 260);
+    			attr_dev(a1, "replace", "");
+    			add_location(a1, file$6, 10, 2, 268);
     			attr_dev(a2, "href", "experiments");
 
     			attr_dev(a2, "class", isActive('/experiments')
     			? 'selected-page-button'
     			: 'page-button');
 
-    			add_location(a2, file$6, 11, 2, 376);
+    			attr_dev(a2, "replace", "");
+    			add_location(a2, file$6, 11, 2, 392);
     			attr_dev(a3, "href", "friends");
 
     			attr_dev(a3, "class", isActive('/friends')
     			? 'selected-page-button'
     			: 'page-button');
 
-    			add_location(a3, file$6, 12, 2, 501);
+    			attr_dev(a3, "replace", "");
+    			add_location(a3, file$6, 12, 2, 525);
     			attr_dev(div, "class", "navbar");
     			add_location(div, file$6, 8, 0, 140);
     		},

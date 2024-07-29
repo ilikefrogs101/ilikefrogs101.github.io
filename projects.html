@@ -6,27 +6,39 @@
 		<link rel="icon" href="./icon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="modulepreload" href="./_app/immutable/entry/start.CaQWl7Rg.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.RweoiX8S.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.Ce-qDXAN.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.DG_BW6kG.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.D9xsQs6S.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.DAXUa5SN.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.ZXWS1JLg.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.BVOo7VuQ.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.BJ5NSjso.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/5.CncACLJ3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/each.2xraTf5v.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/pagebar.HlgSLBFU.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">
+		<div style="display: contents">  <main><div class="navbar"><a href="/" class="page-button">Home</a> <a href="/projects" class="selected-page-button">Projects</a> <a href="/experiments" class="page-button">Experiments</a> <a href="/friends" class="page-button">Friends</a></div> <div><h1 class="title" data-svelte-h="svelte-1qcun1f">Projects</h1> <ul><li class="project"><button class="project-button"><span class="subtitle">HIGHBLAST</span></button>  </li><li class="project"><button class="project-button"><span class="subtitle">Minirail Simulator</span></button>  </li><li class="project"><button class="project-button"><span class="subtitle">Pinboard/Notes App</span></button>  </li><li class="project"><button class="project-button"><span class="subtitle">Unnamed Game Engine</span></button>  </li></ul></div></main> 
+			
 			<script>
 				{
-					__sveltekit_1wdnpof = {
+					__sveltekit_ygg1gf = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
+					const data = [null,null];
+
 					Promise.all([
-						import("./_app/immutable/entry/start.CaQWl7Rg.js"),
-						import("./_app/immutable/entry/app.DAXUa5SN.js")
+						import("./_app/immutable/entry/start.Ce-qDXAN.js"),
+						import("./_app/immutable/entry/app.ZXWS1JLg.js")
 					]).then(([kit, app]) => {
-						kit.start(app, element);
+						kit.start(app, element, {
+							node_ids: [0, 5],
+							data,
+							form: null,
+							error: null
+						});
 					});
 				}
 			</script>

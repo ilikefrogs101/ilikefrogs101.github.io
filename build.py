@@ -4,7 +4,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
 SRC = Path("src")
-OUTPUT = Path("public")
+OUTPUT = Path("docs")
 
 env = Environment(loader=FileSystemLoader(SRC / "pages"))
 

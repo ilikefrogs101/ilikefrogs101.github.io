@@ -56,6 +56,7 @@ def main():
     generate_page(
         "404.html",
         OUTPUT / "404.html",
+        current_path="/404.html",
     )
 
     for name in ("projects", "experiments", "friends"):

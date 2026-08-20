@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+{% for item in items %}
+    <details class="entry">
+        <summary>{{ item.name }}</summary>
+        <p>{{ item.description }}</p>
+
+        {% for link in item.links or [] %}
+        <a href="{{ link.url }}" class="link">{{ link.name }}</a>{% if not loop.last %}<br>{% endif %}
+        {% endfor %}
+    </details>
+{% endfor %}
+{% endblock %}

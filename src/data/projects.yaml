@@ -1,0 +1,23 @@
+- name: Syweav
+  description: Syweav is a system configuration and package management software somewhat inspired by Nix.
+  links:
+
+- name: Lyrbd
+  description: Lyrbd is a audio management daemon. It was designed to integrate with hotkey systems and be easily accesible through the command-line.
+  links:
+    - name: Download
+      url: https://github.com/ilikefrogs101/lyrbd/releases
+    - name: Source
+      url: https://github.com/ilikefrogs101/lyrbd
+
+- name: Untitled Library Game
+  description: A game where the player can organise books in a library of their own design in any fashion that they wish.
+  links:
+
+- name: Untitled Spaceship Combat Game
+  description: A game where the player constructs a spaceship before using it for combat. The more systems one adds to a ship, the more systems one will have to manage.
+  links:
+
+- name: Untitled Bulletin Board software
+  description: A bulletin board program designed to assist with the representation and connection of ideas.
+  links:

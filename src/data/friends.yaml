@@ -1,0 +1,12 @@
+- name: QuasarCG
+  description: "\"Amature 3d modeller, always wanted to get into game development. I use Blender and Godot.\""
+  links:
+    - name: YouTube
+      url: https://www.youtube.com/@quasarcg_studio
+  
+- name: Lyvri
+  description: "\"A young programmer that programs. makes inexpensive games.\""
+  links:
+    - name: Website
+      url: https://sites.google.com/view/mysticaldevelopers/home
+      

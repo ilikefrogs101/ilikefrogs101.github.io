@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("/fonts/AtkinsonHyperlegibleNext-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("/fonts/AtkinsonHyperlegibleNext-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("/fonts/AtkinsonHyperlegibleNext-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* General Styles */
+main {
+    text-align: center;
+    padding: 1em;
+    max-width: 704px;
+    margin: 0 auto;
+}
+body,html {
+    color: #ebdbb2;
+    background-color: #282828;
+
+    font-size: 20px;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 500;
+}
+
+/* Custom Classes */
+.navbar {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+
+    color: #282828;
+    background-color: #282828;
+
+    border-radius: 16px;
+    border: solid 2px #ebdbb2;
+}
+.navbar-link,.current-navbar-link {
+    padding: 12px;
+
+    color: #ebdbb2;
+
+    font-size: 24px;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.navbar-link:hover {
+    text-decoration: underline;
+}
+.current-navbar-link {
+    text-decoration: underline;
+}
+.entry {
+    padding: 0.2em 0.5em;
+	margin-top: 1.5em;
+	width: fit-content;
+    margin-inline: auto;
+
+    border-radius: 16px;
+    border: solid 2px #ebdbb2;
+
+	font-size: 20px;
+}
+.entry summary {
+	font-size: 2em;
+}
+.link {
+	color: #83a598;
+
+	text-decoration: none;
+}
+.link:hover {
+	color: #83a598;
+
+	text-decoration: underline;
+}

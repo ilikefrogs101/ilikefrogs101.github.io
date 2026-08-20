@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en-AU">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link href="/static/styles/styles.css" rel="stylesheet" />
+        <title>ilikefrogs101 &mdash; {% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        <main>
+            {% include "navbar.html" %}
+
+            {% block content %}{% endblock %}
+        </main>
+    </body>
+</html>

@@ -10,6 +10,14 @@
     - name: Source
       url: https://github.com/ilikefrogs101/lyrbd
 
+- name: Lunch
+  description: Lunch is a simple CLI-based program launcher.
+  links:
+    - name: Download
+      url: https://github.com/ilikefrogs101/lunch/releases
+    - name: Source
+      url: https://github.com/ilikefrogs101/lunch
+
 - name: Untitled Library Game
   description: A game where the player can organise books in a library of their own design in any fashion that they wish.
   links:

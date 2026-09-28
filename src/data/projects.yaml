@@ -11,7 +11,7 @@
       url: https://github.com/ilikefrogs101/lyrbd
 
 - name: Lunch
-  description: Lunch is a simple CLI-based program launcher.
+  description: Lunch is a simple CLI-based program launcher. It was designed to act somewhat as an abstraction layer between window managers' spawn systems and the user.
   links:
     - name: Download
       url: https://github.com/ilikefrogs101/lunch/releases
